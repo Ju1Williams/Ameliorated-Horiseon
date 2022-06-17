@@ -19,9 +19,6 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1  {
     color: #d9dcd6;
 }
 
@@ -41,7 +38,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/*Above revamped version of semantics*/
+/*followed directive to switch into nav for css*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -162,32 +159,26 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.search-engine-optimization h2, img {
     margin-bottom: 20px;
     font-size: 36px;
+    max-height: 200px;
 }
+/*compressed img into search engine optimization*/
 
-.online-reputation-management h2 {
+.online-reputation-management h2, img {
     margin-bottom: 20px;
     font-size: 36px;
+    max-height: 200px;
 }
+/*compressed img into online reputation*/
 
-.social-media-marketing h2 {
+.social-media-marketing h2, img {
     margin-bottom: 20px;
     font-size: 36px;
+    max-height: 200px;
 }
+/*compressed img into social media marketing making css more efficient*/
 
 .footer {
     padding: 30px;
@@ -197,5 +188,5 @@ p {
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size:20px;
 }
